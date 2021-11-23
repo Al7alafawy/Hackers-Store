@@ -6,9 +6,11 @@
 body
 {
     font-family: 'Share Tech', sans-serif;
-    overflow-x: hidden;
 }
 /* ------------- scroll bar -------------- */
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
 ::-webkit-scrollbar {
     width: 15px; 
   }
