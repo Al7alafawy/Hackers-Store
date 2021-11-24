@@ -406,6 +406,16 @@ ul
     {
         flex-basis: 100%;
     }
+        .programmers .col-5 
+    {
+        flex-basis: 20%;
+        height: 400px;
+    }
+    .programmers .col-5 img
+    {
+        height: 100px;
+        width: 100px;
+    }
 } 
 
 /* ------------- Contact Style -------------- */
@@ -538,7 +548,7 @@ button {
 }
 .programmers .col-5
 {
-    flex-basis: 20%;
+    flex-basis: 19%;
     text-align: center;
     height: 300px;
     padding: 40px 15px;
@@ -554,8 +564,8 @@ button {
 }
 .programmers img
 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-top: 20px;
     border-radius: 50%;
 }
