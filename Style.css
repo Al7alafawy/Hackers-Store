@@ -409,13 +409,7 @@ ul
     }
     .programmers .col-5 
     {
-        flex-basis: 20%;
-        height: 400px;
-    }
-    .programmers .col-5 img
-    {
-        height: 100px;
-        width: 100px;
+        flex-basis: 50%;
     }
 } 
 
@@ -566,7 +560,7 @@ button {
 .programmers img
 {
     width: 100%;
-    height: 90%;
+    height: 75%;
     margin-top: 20px;
     border-radius: 50%;
 }
