@@ -397,7 +397,7 @@ ul
     }
 }
 /*----------- media query for Less than 600 screen size ----------*/
-@media only screen and (max-width : 600)
+@media only screen and (max-width : 600px)
 {
     .row
     {
@@ -405,11 +405,11 @@ ul
     }
     .col-2,.col-3,.col-4
     {
-        flex-basis: 100%;
+        flex-basis: 80%;
     }
     .programmers .col-5 
     {
-        flex-basis: 50%;
+        flex-basis: 45%;
     }
 } 
 
