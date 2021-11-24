@@ -14,8 +14,8 @@
     </Head>
 
     <body> 
-        <div class="header">
-            <div class="container">
+        <div class="header" style="background: linear-gradient(rgb(62, 62, 90),rgba(79, 79, 114,0.7),rgba(79, 79, 114, 0.4),rgba(79, 79, 114, 0))">
+            <div class="container" >
                 <div class="navbar">
                     <div class="logo">
                        <img src="Images/LogoName.png" alt="Logo" width = "150px" >
@@ -31,18 +31,8 @@
                     </nav>
                     <img src="Images/cart.png" alt="cart" width="30px" height="30px">
                     <img src="Images/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
-                </div> 
-                <div class="row">
-                    <div class="col-2">
-                        <h1>Find All  Your Needs <br><u>In One Place</u> </h1>
-                        <p>To all special people around the world who know that <br>1 + 1 =  10 </p>
-                        <a href="" class="btn">Explore Now &#8594;</a>
-                    </div>
-                    <div class="col-2">
-                        <img src="Images/hero.png" alt="Hacker Hero Image">
-                    </div>
-                </div>
-            </div>    
+                </div>    
+            </div>
         </div>
 <div class="contact">
     <div class="container1">
@@ -118,22 +108,6 @@
         <p class="copyright">Copyright 2021 - FCI Students</p>
     </div>
 </div>
-        <!-------------JS For toggle Menu -------------->
-<script>
-    var MenuItems = document.getElementById("MenuItems");
-    MenuItems.style.maxHeight = "0px";
-    function menutoggle()
-    {
-        if(MenuItems.style.maxHeight=="0px")
-        {
-            MenuItems.style.maxHeight = "200px";
-        }
-        else
-        {
-            MenuItems.style.maxHeight = "0px";
-        }
-    }
-</script>
 </body>
 
 </html>
