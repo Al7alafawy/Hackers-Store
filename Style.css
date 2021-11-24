@@ -366,13 +366,6 @@ ul
     display: none;
 }
 /*----------- media query for menu ----------*/
-@media only screen and (min-width : 1000px)
-{
-    .programmers .col-5
-    {
-        flex-basis: 19%;
-    }   
-}
 @media only screen and (max-width : 800px) 
 {
     nav ul
@@ -420,7 +413,13 @@ ul
         flex-basis: 45%;
     }
 } 
-
+@media only screen and (min-width : 1000px)
+{
+    .programmers .col-5
+    {
+        flex-basis: 19%;
+    }   
+}
 /* ------------- Contact Style -------------- */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
