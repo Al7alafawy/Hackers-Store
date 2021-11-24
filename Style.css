@@ -407,7 +407,7 @@ ul
     {
         flex-basis: 80%;
     }
-    .programmers .col-5 
+    .programmers .col-5
     {
         flex-basis: 45%;
     }
@@ -543,7 +543,6 @@ button {
 }
 .programmers .col-5
 {
-    flex-basis: 19%;
     text-align: center;
     height: 400px;
     padding: 40px 15px;
