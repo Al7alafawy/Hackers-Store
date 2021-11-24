@@ -413,8 +413,8 @@ ul
     }
     .programmers .col-5 img
     {
-        height: 100px;
-        width: 100px;
+        height: 125px;
+        width: 125px;
     }
 } 
 
@@ -564,8 +564,8 @@ button {
 }
 .programmers img
 {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     margin-top: 20px;
     border-radius: 50%;
 }
